@@ -43,6 +43,28 @@ project_name/
 ```
 ---
 
+## Tracking files with git
+
+### Demonstration with graphical user interface
+
+````{challenge} Demonstration
+We use a simple word-count repository in demonstrations and exercises
+(<https://github.com/coderefinery/word-count>). We should clone the
+repository already to prepare to work on it.
+
+On VSCode (many other interfaces exist and are just as good)
+ - Open command palette and type clone
+ - paste the URL of the repository to clone
+ - use the file dialog to find a place for it
+ - Create a new file and make a change to an existing one.
+ - Add them to the repository and push online.
+ - See the changes online.
+````
+
+* Check the [Git-intro lesson](https://coderefinery.github.io/git-intro/) for a lot more details.
+
+
+
 ## Tracking source code, data, and results
 
 - All code is version controlled and goes in the `src/` or `source/` directory
@@ -55,7 +77,6 @@ project_name/
   ```console
   $ git tag -a thesis-submitted -m "this is the submitted version of my thesis"
   ```
-* Check the [Git-intro lesson](https://coderefinery.github.io/git-intro/) for a reminder.
 
 ---
 
