@@ -15,7 +15,7 @@ Our workflows depend on other codes that in turn depend on other codes ...
 - **Dependency hell**: Different codes on the same environment can have conflicting dependencies.
 
 ```{figure} img/python_environment.png
-:alt: An image showing a mess of dependecies in a Python environment
+:alt: An image showing a mess of dependencies in a Python environment
 :width: 60%
 
 From [xkcd](https://xkcd.com/).

@@ -21,7 +21,7 @@ to the interested students.
 
 # From the original Code Refinery material:
 
-These are partially appropriate for this course. I'm keeping them here untill I teach this at least once.
+These are partially appropriate for this course. I'm keeping them here until I teach this at least once.
 
 
 
