@@ -32,7 +32,7 @@ Or a program crashed when you clicked save? Did you maybe delete a file by mista
 
 In this section we will look at ways of saving your work for yourself and saving 
 effort by making computational steps easy to repeat, share and modify. Making you
-research project reproducable increase the quality of your work, but the main
+research project reproducible increase the quality of your work, but the main
 motivation should be to make your life easier in the long run.
 
 In this lesson we will explore different methods and tools for better
