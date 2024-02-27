@@ -9,8 +9,7 @@
 ```
 
 ```{instructor-note}
-- 10 min teaching
-- 20 min exercises
+- 15 min teaching
 ```
 
 
@@ -38,6 +37,23 @@ Example (for one book only):
 $ python statistics/count.py data/isles.txt > statistics/isles.data
 $ python plot/plot.py --data-file statistics/isles.data --plot-file plot/isles.png
 ```
+
+Simplest example for small number of books:
+
+```bash
+python statistics/count.py data/isles.txt > statistics/isles.data
+python plot/plot.py --data-file statistics/isles.data --plot-file plot/isles.png
+
+python statistics/count.py data/abyss.txt > statistics/abyss.data
+python plot/plot.py --data-file statistics/abyss.data --plot-file plot/abyss.png
+
+python statistics/count.py data/last.txt > statistics/last.data
+python plot/plot.py --data-file statistics/last.data --plot-file plot/last.png
+
+python statistics/count.py data/sierra.txt > statistics/sierra.data
+python plot/plot.py --data-file statistics/sierra.data --plot-file plot/sierra.png
+```
+
 
 ```{discussion}
 We have two steps and 4 books. But **imagine having 4 steps and processing 500 books**.
@@ -218,7 +234,6 @@ Exercise goals:
   same workflow works without modification and scales appropriately whether on a laptop or cluster.
 - [Heavily used in bioinformatics](https://twitter.com/carl_witt/status/1103951128046301185), but is completely general.
 - Is is possible to define isolated software environments per rule, see [here](https://github.com/coderefinery/word-count/blob/f4ca47440751dd2c65f55fef1a8d9f181ecdd2f6/Snakefile#L15).
-- Also possible to run workflows in Docker or Apptainer containers.
 - Workflows can be pushed out to run on a cluster or in the cloud without modifications to scale up.
 - If several workflow steps are independent of each other, and you have multiple cores available, Snakemake can run them in parallel.
 - Nice functionality for archiving the workflow, see: [the official documentation](https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#sustainable-and-reproducible-archiving)

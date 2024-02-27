@@ -1,11 +1,12 @@
 # Organizing your projects
 
 ```{objectives}
+- Get an introduction to version control
 - Get an overview on how to organize research projects
 ```
 
 ```{instructor-note}
-- 10 min teaching incl. discussions
+- 15 min teaching incl. demo and discussions
 ```
 
 One of the most basic steps to make your work reproducible is to organize your projects well.
@@ -61,6 +62,11 @@ On VSCode (many other interfaces exist and are just as good)
  - See the changes online.
 ````
 
+* Git workflow:
+  1. Add files
+  2. Commit (save to Git)
+  3. Push (save online)
+
 * Check the [Git-intro lesson](https://coderefinery.github.io/git-intro/) for a lot more details.
 
 
@@ -73,10 +79,7 @@ On VSCode (many other interfaces exist and are just as good)
 - If data files are too large (or sensitive) to track, untrack them using `.gitignore`
 - Intermediate files from the analysis are kept in `processed_data/`
 - Consider using Git tags to mark specific versions of results (version
-  submitted to a journal, dissertation version, poster version, etc.):
-  ```console
-  $ git tag -a thesis-submitted -m "this is the submitted version of my thesis"
-  ```
+  submitted to a journal, dissertation version, poster version, etc.)
 
 ---
 
