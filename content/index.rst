@@ -4,29 +4,6 @@ Reproducible research - Preparing code to be usable by you and others in the fut
 ===================================================================================
 
 
-.. admonition:: Notes for the instructor:
-
-   This course is for new researchers, bachelors and masters students, summer
-   workers and so on. The do not have a lot of experience with programming and 
-   will not write long programs to start with. Emphasize reproducability of
-   workflows and saving your work (instead of just running commands and getting
-   results).
-
-   Reproducability:
-     - record computational steps and dependencies
-     - keep data as raw as possible (in case of FIONA, raw data cannot be exported)
-     - keep data and code in the same place.
-     - write a workflow to reproduce the entrie paper
-
-   Quick timings:
-    - intro and motivation: 10 minutes
-    - organizing-projects + git demo: 15 minutes
-    - workflow-management: 15 minutes
-    - dependencies and publishing: 10 minutes
-    - exercises and discussion: 10 minutes
-   
-   10 + 15 + 15 + 10 + 10 = 60 minutes   
-
 Have you ever **lost hours of work** when your computer decided to update itself?
 Or a program crashed when you clicked save? Did you maybe delete a file by mistake?
 
