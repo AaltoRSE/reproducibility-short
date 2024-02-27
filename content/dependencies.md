@@ -6,9 +6,9 @@
 
 ```{instructor-note}
 - 10 min teaching
-- 20 min exercises
 ```
-Our codes often depend on other codes that in turn depend on other codes ...
+
+Our workflows depend on other codes that in turn depend on other codes ...
 
 - **Reproducibility**: We can version-control our code with Git but how should we version-control dependencies?
   How can we capture and communicate dependencies?
