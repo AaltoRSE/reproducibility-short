@@ -5,46 +5,24 @@ permalink: /guide/
 
 # Instructor guide
 
+This course is based on the Code Refinery Reproducibility course.
+I have reduced most sections. The idea is to drop the time for
+exercises and instead make a quick note of them and leave them
+to the interested students.
 
-## Detailed day schedule
+- We clone the word count repository towards the beginning to
+  demonstrate git. Use which ever interface you think is most
+  appropriate for the students. The repository is used in most
+  demonstrations.
+- Don't go into detail with Snakemake, unless the students are
+  comfortable with scripting already.
+- Make sure to leave time for dependencies.
 
-Two example schedules for this lesson: 
 
-This is the planned schedule for the workshop in September 2023 (2 hours and 5 minutes including 10 min break) ; note that for this workshop, sharing code and data was moved to social coding lesson:
+# From the original Code Refinery material:
 
-- 08:50 - 09:00 Soft start and icebreaker question
-- 09:00 - 09:10 Overview of CR and how it all fits together
-- 09:10 - 09:20 Reproducible research, [Motivation](https://coderefinery.github.io/reproducible-research/motivation/)
-- 09:20 - 09:27 [Organizing your projects](https://coderefinery.github.io/reproducible-research/organizing-projects/)
-- 09:27 - 09:35 [Recording computational steps](https://coderefinery.github.io/reproducible-research/workflow-management/) - discussion
-- 09:35 - 10:00 Snakemake exercise (25 min)
-- 10:00 - 10:10 Break
-- 10:10 - 10:15 Summary of workflows and the exercise
-- 10:15 - 10:30 [Recording dependencies](https://coderefinery.github.io/reproducible-research/dependencies/)
-- 10:30 - 10:40 [Recording environments](https://coderefinery.github.io/reproducible-research/environments/)
-- 10:40 - 11:00 Container-1 exercise (20 min)
-- 11:00 - 11.05 Wrapup
+These are partially appropriate for this course. I'm keeping them here untill I teach this at least once.
 
-This was the schedule at workshop in March 2023 (2 hours and 15 minutes including 2x 10 min break):
-
-- 08:50 - 09:00 Soft start and icebreaker question
-- 09:00 - 09:10 Interview with an invited guest
-- 09:10 - 09:20 [Motivation](https://coderefinery.github.io/reproducible-research/motivation/)
-- 09:20 - 09:30 [Organizing your projects](https://coderefinery.github.io/reproducible-research/organizing-projects/)
-- 09:30 - 10:00 [Recording dependencies](https://coderefinery.github.io/reproducible-research/dependencies/)
-   - discussion (5 min)
-   - exercise (20 min)
-   - discussion (5 min)
-- 10:00 - 10:10 Break
-- 10:10 - 10:40 [Recording computational steps](https://coderefinery.github.io/reproducible-research/workflow-management/)
-   - discussion (5 min)
-   - exercise (20 min)
-   - discussion (5 min)
-- 10:40 - 10:50 [Recording environments](https://coderefinery.github.io/reproducible-research/environments/)
-   - an exercise exists but is typically not done as part of a standard workshop
-- 10:50 - 11:05 [Sharing code and data](https://coderefinery.github.io/reproducible-research/sharing/)
-    - [demo (15 min)](https://coderefinery.github.io/reproducible-research/sharing/#connecting-repositories-to-zenodo)
-- 11:05 - 11:15 Break
 
 
 ## Why we teach this lesson
