@@ -70,6 +70,34 @@ On VSCode (many other interfaces exist and are just as good)
 * Check the [Git-intro lesson](https://coderefinery.github.io/git-intro/) for a lot more details.
 
 
+## Licensing
+
+Software and data is only usable by others if you include a license. You cannot use someone else's
+public code if it does not have a license attached.
+
+- Publishing you work openly also allows you to access it in the future. Otherwise it might belong
+  to the institution you are working for.
+- Everyone who contributed should agree to the license. So do this early rather than late.
+
+Examples:
+ - MIT: Very open, your code can be used in commercial applications.
+ - GPL: Copyleft, any code derived from yours must be GPL and open
+ - Creative Commons: Mostly for data, text and artistic work. This course is published under CC-by
+
+See the [CodeRefinery course](https://coderefinery.github.io/social-coding/software-licensing/) for
+details.
+
+
+## Citations
+
+Software can be a scientific publication, similarly to a dataset.
+
+Making citing as easy as possible:
+ - Add a file called [CITATION.cff](https://citation-file-format.github.io/)
+   ([example](https://github.com/bast/runtest/blob/main/CITATION.cff)).
+ - Get a [digital object identifier (DOI)](https://en.wikipedia.org/wiki/Digital_object_identifier)
+   from [Zenodo](https://zenodo.org/)
+
 
 ## Tracking source code, data, and results
 
