@@ -99,7 +99,7 @@ Making citing as easy as possible:
    from [Zenodo](https://zenodo.org/)
 
 There are also journals that focus on software 
-([“In which journals should I publish my software?” (Neil P. Chue Hong)](https://www.software.ac.uk/resources/guides/which-journals-should-i-publish-my-software)).
+([“In which journals should I publish my software?” (Neil P. Chue Hong)](https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software)).
 They guarantee a higher standard for scientific software. For example, they can require automated
 testing and documentation of the software.
 
