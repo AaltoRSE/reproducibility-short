@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath('.'))
 project = "Reproducible research"
 copyright = "CodeRefinery team"
 author = "CodeRefinery team"
-github_user = "coderefinery"
-github_repo_name = "reproducible-research"  # auto-detected from dirname if blank
+github_user = "AaltoRSE"
+github_repo_name = "reproducibility-short"  # auto-detected from dirname if blank
 github_version = "main"
 conf_py_path = "/content/" # with leading and trailing slash
 
